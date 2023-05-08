@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    font-size: 14px;
+    font-family: 'Advent Pro';;
+    max-width: 375px;
+    margin-inline: auto;
+    background-color: #f7e5df;
+    margin-block: 15%;
+}
+
+/* 
+*****************************************************
+    Style css pour la partie desktop
+***************************************************** */
+
+@media screen and (min-width:1440px){
+
+    body{
+        font-size: 20px;
+        font-family: 'Advent Pro';
+        max-width: 40%;
+        max-height: 100vh;
+        margin-inline: auto;
+        background-color: #f3d0c5;
+        margin-block: 10%;
+    }
+
+    article.container{
+    background-color: hsl(228, 20%, 90%);
+    border-radius: 0.5em;
+    max-width: 50%;
+    margin-inline: auto;
+    display: flex;
+    margin-block: 50px;
+    gap: 0.5rem;
+}
+
+ section.img {
+    flex-basis: 50%;
+}
+section.desc {
+    flex-basis: 50%;
+    padding: 1rem;
+}
+
+article.container section.img img{
+    /* max-height: auto; */
+    max-width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0;
+}
+
+div.value{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-block: 1rem;
+}
+div.button button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+div.button button:hover{
+    background-color: hsl(158, 38%, 29%);
+}
+
+div.value section.value1{
+    font-size: 25px;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+} 
+
+}
+/* 
+*****************************************************
+    Style css pour la partie mobile
+***************************************************** */
+
+   article.container{
+    background-color: hsl(228, 20%, 90%);
+    max-width: 375px;
+    border-radius: 0.5em;
+}
+
+article.container section.img img{
+    max-width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+section.desc{
+    margin-block: 1rem;
+}
+p.title{
+    letter-spacing: 0.5rem;
+    font-size: 1rem;
+}
+h1{
+    font-size: 2rem;
+}
+div.button button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1rem;
+}
+div.value section.value1{
+    font-size: 25px;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+}
+
+div.value{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+div.button button{
+    margin-block: 1rem;
+}
+
+article.container section.desc{
+    padding: 0.5rem 2rem;
+} 
+
+    article.container{
+    background-color: hsl(228, 20%, 90%);
+    max-width: 100%;
+    border-radius: 0.5em;
+}
+
+article.container section.img img{
+    max-width: 100%;
+    max-height: auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+section.desc{
+    margin-block: 1rem;
+}
+p.title{
+    letter-spacing: 0.5rem;
+    font-size: 1rem;
+}
+h1{
+    font-size: 2rem;
+}
+div.button button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+div.button button:hover{
+    background-color: hsl(158, 38%, 29%);
+}
+div.value section.value1{
+    font-size: 25px;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+}
+
+div.value{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+div.button button{
+    margin-block: 1rem;
+}
+
+article.container section.desc{
+    padding: 0.5rem 2rem;
+}
+
